@@ -1,0 +1,58 @@
+attemping to assemble git_repos/lab4-AnvitRaju1/ar68234.asm into git_repos/lab4-AnvitRaju1/ar68234.obj
+assembly successful
+Test: testcase1
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: testcase2
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: testcase3
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: Null_Termination
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: n=0
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: n=1
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: n=2
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 5/5 (100%)
+==========
+Test: Large_RandomlySorted
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: Values_onEdge1
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 10/10 (100%)
+==========
+Test: Values_onEdge2
+  passed_hist => yes
+  passed_mean_range => yes
+Test points earned: 5/5 (100%)
+==========
+Test: Sim_Successful
+  SIM_SUCCESSFUL => yes
+Test points earned: 10/10 (100%)
+==========
+==========
+Total points earned: 100/100 (100%)

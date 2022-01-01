@@ -1,0 +1,16 @@
+!!!!!! DO NOT FORGET TO CHANGE THE NAME OF THIS FILE TO youreid.txt (e.g. blt896.txt) !!!!!!
+
+Name: 
+Anvit Raju
+
+What are some fun “quarantine hobbies” that have helped get you through the past couple months?: 
+Gaming, Reading, Exercising
+
+What programming languages have you worked with previously?  (note: you do NOT need to have any programming experience for this course):
+Java, Python, HTML
+
+In general, how do you feel about working in groups?  Would you describe yourself as shy? Talkative? A leader? A follower?:
+Im comfortable leading a group and actively participating in all discussions.
+
+What do you expect from this class?  From your TAs?:
+I expect to learn computing to my fullest potential this year and gain atleast a good foundation of computing. I also expect to get help from TA's when needed!

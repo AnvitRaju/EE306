@@ -1,0 +1,207 @@
+attemping to assemble temp.asm into temp.obj
+assembly successful
+Test: testcase1_input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'added' substring of 'Type EID and press Enter: MN483\nMN483 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'MN483 is added to the main room.
+' substring of 'Type EID and press Enter: MN483\nMN483 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: MN483\nMN483 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: testcase1_input2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: HI564\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: HI564\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: HI564\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: testcase1_input3
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'XY123 is already in the main room.
+' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "already" => is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: testcase2_input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'added' substring of 'Type EID and press Enter: XY123\nXY123 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'XY123 is added to the main room.
+' substring of 'Type EID and press Enter: XY123\nXY123 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: XY123\nXY123 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: testcase3_input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'added' substring of 'Type EID and press Enter: XY124\nXY124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'XY124 is added to the main room.
+' substring of 'Type EID and press Enter: XY124\nXY124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: XY124\nXY124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: testcase3_input2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'XY123 is already in the main room.
+' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "already" => is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: EmptyWaitingRoom_Input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'XY123 is already in the main room.
+' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "already" => is 'already' substring of 'Type EID and press Enter: XY123\nXY123 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: EmptyWaitingRoom_Input2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: PartialMatch_Input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'added' substring of 'Type EID and press Enter: AD124\nAD124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'AD124 is added to the main room.
+' substring of 'Type EID and press Enter: AD124\nAD124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: AD124\nAD124 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: PartialMatch_Input2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: AB125\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: AB125\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: AB125\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: TerminationTest1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: AK378\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: AK378\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: AK378\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: TerminationTest2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: PQ567\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: MixedTest_Input1
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'entered' substring of 'Type EID and press Enter: CA111\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+is 'The entered EID does not match.
+' substring of 'Type EID and press Enter: CA111\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+ "entered" => is 'entered' substring of 'Type EID and press Enter: CA111\nThe entered EID does not match.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: MixedTest_Input2
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'added' substring of 'Type EID and press Enter: AA116\nAA116 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'AA116 is added to the main room.
+' substring of 'Type EID and press Enter: AA116\nAA116 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: AA116\nAA116 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: MixedTest_Input3
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => no
+  correctMainList => yes
+  correctWaitingList => no
+is 'added' substring of 'Type EID and press Enter: BA111\nBA111 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'BA111 is added to the main room.
+' substring of 'Type EID and press Enter: BA111\nBA111 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "added" => is 'added' substring of 'Type EID and press Enter: BA111\nBA111 is added to the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 2/5 (50%)
+==========
+Test: MixedTest_Input4
+is 'Type EID and press Enter: ' == 'Type EID and press Enter: '
+  correctHeader => yes
+  correctMainList => yes
+  correctWaitingList => yes
+is 'already' substring of 'Type EID and press Enter: AC111\nAC111 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+is 'AC111 is already in the main room.
+' substring of 'Type EID and press Enter: AC111\nAC111 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+ "already" => is 'already' substring of 'Type EID and press Enter: AC111\nAC111 is already in the main room.\n\n--- Halting the LC-3 ---\n\n'
+yes
+Test points earned: 5/5 (100%)
+==========
+Test: Correct_Prompt
+  correctPrompt == 1 => yes
+  correctAlready == 1 => yes
+  correctAdded== 1 => yes
+  correctEntered == 1 => yes
+Test points earned: 10/10 (100%)
+==========
+Test: Sim_Successful
+  SIM_SUCCESSFUL => yes
+Test points earned: 10/10 (100%)
+==========
+==========
+Total points earned: 97/100 (97%)
